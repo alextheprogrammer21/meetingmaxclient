@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>meetingmax assignment</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <link rel="stylesheet" href="index.css" />
+    <script type="text/javascript" src="script.js"></script>
+    <body>
+      <noscript>You need to enable Javascript to run this app.</noscript>
+      <main>
+        <h1>Full house finder</h1>
+        <section>
+          <button onclick="draw()">Shuffle & Draw</button>
+        </section>
+        <h3 class="full-house hide">You drew a full house!</h3>
+        <section class="card-container">
+          <!-- <img src="./assets/card.png" alt="A deck of cards" onclick="draw()" /> -->
+          <span class="draw" onclick="draw()">&#127136;</span>
+          <ul id="visible-cards"></ul>
+        </section>
+      </main>
+      <footer>
+        <p>No copyright. Feel free to steal all of this code :D.</p>
+      </footer>
+    </body>
+  </head>
+</html>

@@ -1,0 +1,58 @@
+h1 {
+  text-align: center;
+}
+
+button {
+  color: white;
+  background-color: black;
+  border: none;
+  padding: 5px 15px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+section,
+h3 {
+  margin: 15px;
+}
+
+button:hover {
+  transform: scale(1.05);
+}
+
+ul,
+.draw {
+  font-size: 75px;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  height: 150px;
+}
+
+li {
+  margin: auto;
+}
+
+li:hover {
+  font-size: 1.2em;
+}
+
+.draw {
+  margin: auto 0px;
+  cursor: pointer;
+}
+
+.hide {
+  visibility: hidden;
+}
+
+.card-container {
+  display: flex;
+}
+
+footer {
+  position: fixed;
+  bottom: 0px;
+}
